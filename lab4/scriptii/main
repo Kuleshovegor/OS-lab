@@ -1,0 +1,71 @@
+#!/bin/bash
+trashDir=~/.trash
+trashLog=~/.trash.log
+fileName=$1
+if [[ $# -ne 1 ]]
+then
+	echo "Bad argument"
+	exit 1
+fi
+pathFileName=""
+fileFound=n
+for line in "$(awk -F ":" '{print $1}' $trashLog | grep "$fileName$")"
+do
+	while true; do
+		echo "Is this file? [y/n]"
+		echo "$line"
+		read ans
+		if [[ "$ans" == "y" ]]
+		then
+			pathFileName="$line"
+			fileFound=y
+			break
+		elif [[ "$ans" == "n" ]]
+		then
+			break
+		else
+			echo "Incorrect answer. Try again."
+		fi
+	done
+	
+	if [[ "$fileFound" == "y" ]]
+	then
+		break
+	fi
+done
+
+if [[ "$fileFound" == "n" ]]
+then
+	echo "File not found"
+	exit
+fi
+
+linkName="$(grep "^$pathFileName" $trashLog | tail -n 1 | awk -F ":" '{print $2}')"
+if [[ ! -f "$trashDir/$linkName" ]] 
+then
+	echo "File not found"
+	exit 1
+fi
+len=${#fileName}
+reg=".\{$(($len + 1))\}$"
+fileDir="$(echo "$pathFileName" | sed "s/$reg//")"
+if [[ ! -d $fileDir ]]
+then
+	echo "Can't find directory. File will recovery in home directory."
+	fileDir="$HOME"
+fi
+newNameFile="$fileName"
+while true;
+do
+	findName="$(ls "$fileDir" | grep -o "$newNameFile")"
+	if [[ -z "$findName" ]]
+	then
+		ln "$trashDir/$linkName" "$fileDir/$newNameFile"
+		rm "$trashDir/$linkName"
+		echo "File recovered"
+		exit
+	else
+		echo "Name is taken. Please try another:"
+		read newNameFile
+	fi
+done
