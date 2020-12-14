@@ -1,0 +1,22 @@
+#!/bin/bash
+proctoplog="proctop.log"
+proctoplog2="proctop2.log"
+syslog="sys.log"
+fivetoplog="fivetop.log"
+dmesglog="dmesglog.log"
+timelog="time.log"
+> "$proctoplog"
+> "$syslog"
+> "$fivetoplog"
+> "$dmesglog"
+> "$timelog"
+for i in {1..30}; do
+date +"%T" >> "$timelog"
+top -b -n1 | grep "mem.bash" >> "$proctoplog"
+top -b -n1 | grep "mem2.bash" >> "$proctoplog2"
+top -b -n1 | head -5 | tail -2 >> "$syslog"
+echo >> "$syslog"
+top -b -n1 | head -12 | tail -7 >> "$fivetoplog"
+sleep 2
+done
+dmesg | grep -E "mem[2]*.bash" | tail -10 >> "$dmesglog"

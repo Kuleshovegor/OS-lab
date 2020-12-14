@@ -1,0 +1,210 @@
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0   23624  17328   3000 R  87,5   1,7   0:00.47 mem.bash
+      1 root      20   0  168860   6544   4240 S   0,0   0,7   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0   95432  89024   3000 R  81,2   8,9   0:02.93 mem.bash
+  22771 kules     20   0 3934412 101692  39380 R  18,8  10,1   2:16.59 gnome-s+
+     10 root      20   0       0      0      0 S   6,2   0,0   0:15.23 ksoftir+
+      1 root      20   0  168860   6544   4240 S   0,0   0,7   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  167240 160716   3000 R  87,5  16,0   0:05.40 mem.bash
+      1 root      20   0  168860   6544   4240 S   0,0   0,7   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  239972 233580   3000 R  93,8  23,2   0:07.89 mem.bash
+      1 root      20   0  168860   6544   4240 S   0,0   0,7   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  310988 304736   3000 R  93,8  30,3   0:10.37 mem.bash
+      1 root      20   0  168860   6544   4240 S   0,0   0,7   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  383720 377208   3000 R  99,9  37,5   0:12.85 mem.bash
+      1 root      20   0  168860   6544   4240 S   0,0   0,7   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  456584 450204   3000 R  93,8  44,8   0:15.32 mem.bash
+      1 root      20   0  168860   6544   4240 S   0,0   0,7   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  527732 521348   2992 R  99,9  51,9   0:17.75 mem.bash
+      1 root      20   0  168860   6528   4240 S   0,0   0,6   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  598484 591904   2924 R  81,2  58,9   0:20.17 mem.bash
+     83 root      20   0       0      0      0 S  12,5   0,0  11:47.13 kswapd0
+  25766 root      20   0       0      0      0 I   6,2   0,0   0:00.04 kworker+
+  26591 kules     20   0   11912   3656   3204 R   6,2   0,4   0:00.01 top
+      1 root      20   0  168860   6080   3792 S   0,0   0,6   0:27.88 systemd
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  666728 658412   1208 R  75,0  65,5   0:22.56 mem.bash
+     83 root      20   0       0      0      0 R   6,2   0,0  11:47.33 kswapd0
+      1 root      20   0  168860   3164    876 S   0,0   0,3   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  729296 671660   1488 R  87,5  66,8   0:24.81 mem.bash
+   1108 kules     20   0  314560   1716   1484 S   6,2   0,2   0:26.88 gsd-hou+
+      1 root      20   0  168860   2784    824 S   0,0   0,3   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  800180 687632   1444 R  87,5  68,4   0:27.25 mem.bash
+     83 root      20   0       0      0      0 R   6,2   0,0  11:47.69 kswapd0
+      1 root      20   0  168860   1108    592 S   0,0   0,1   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  868952 691156   1444 R  87,5  68,8   0:29.63 mem.bash
+     83 root      20   0       0      0      0 R   6,2   0,0  11:47.81 kswapd0
+    121 root       0 -20       0      0      0 I   6,2   0,0   0:39.93 kworker+
+  26635 kules     20   0   11912   3632   3176 R   6,2   0,4   0:00.01 top
+      1 root      20   0  168860   1040    592 S   0,0   0,1   0:27.88 systemd
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  934952 687260   1260 R  93,8  68,4   0:31.93 mem.bash
+  26646 kules     20   0   11912   3548   3092 R   6,2   0,4   0:00.01 top
+      1 root      20   0  168860    872    592 S   0,0   0,1   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0  995012 667036   1260 R  99,9  66,4   0:34.13 mem.bash
+      1 root      20   0  168860    844    592 S   0,0   0,1   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0 1062728 677756   1236 R  87,5  67,4   0:36.50 mem.bash
+     83 root      20   0       0      0      0 S   6,2   0,0  11:48.24 kswapd0
+      1 root      20   0  168860    796    592 S   0,0   0,1   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26493 kules     20   0 1131764 691680   1236 R  93,8  68,8   0:38.88 mem.bash
+      1 root      20   0  168860    768    592 S   0,0   0,1   0:27.88 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     83 root      20   0       0      0      0 R  25,0   0,0  11:58.48 kswapd0
+  26493 kules     20   0 1175324 707464    496 R  22,2  70,4   0:41.08 mem.bash
+    711 kules     20   0  227236   5244   1628 S   2,8   0,5   3:16.92 Xorg
+   2570 kules     20   0  825216  12004   2852 S   2,8   1,2   1:09.46 gnome-t+
+  22771 kules     20   0 3934412  48384   2560 D   2,8   4,8   2:17.11 gnome-s+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     83 root      20   0       0      0      0 R  25,9   0,0  12:22.32 kswapd0
+  26493 kules     20   0 1189448 720908     36 D   3,8  71,7   0:43.15 mem.bash
+  26700 kules     20   0   11912    668      0 R   1,9   0,1   0:00.24 top
+  22771 kules     20   0 3934412  47656   1888 R   1,4   4,7   2:18.07 gnome-s+
+      1 root      20   0  168860    196      0 S   0,0   0,0   0:27.89 systemd
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     83 root      20   0       0      0      0 R  51,5   0,0  13:16.12 kswapd0
+  20325 root      20   0  634088   1400      0 S   8,1   0,1   2:23.75 snapd
+  26493 kules     20   0 1199744 730552      0 D   1,2  72,7   0:46.26 mem.bash
+  26710 kules     20   0   11912   1388    716 R   1,2   0,1   0:01.41 top
+  22771 kules     20   0 3934412  47132   1356 D   1,1   4,7   2:21.17 gnome-s+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     83 root      20   0       0      0      0 R  32,1   0,0  14:01.08 kswapd0
+    270 root       0 -20       0      0      0 S   7,5   0,0   2:25.70 loop9
+  20325 root      20   0  634088   2004      0 S   5,0   0,2   3:01.50 snapd
+  22771 kules     20   0 3934412  45764      0 D   0,8   4,6   2:26.85 gnome-s+
+  26723 kules     20   0   11912    992    324 R   0,7   0,1   0:01.45 top
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     83 root      20   0       0      0      0 R  18,3   0,0  14:25.87 kswapd0
+  20325 root      20   0  634088   1844      0 S  14,2   0,2   3:22.91 snapd
+  26493 kules     20   0 1202120 730308    324 D   4,4  72,7   0:54.70 mem.bash
+    270 root       0 -20       0      0      0 S   2,9   0,0   2:30.99 loop9
+  22771 kules     20   0 3934412  45552      0 D   2,0   4,5   2:30.41 gnome-s+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     83 root      20   0       0      0      0 R  21,7   0,0  15:31.82 kswapd0
+    270 root       0 -20       0      0      0 S   7,1   0,0   2:50.93 loop9
+    219 root      19  -1   76076    340      0 D   2,2   0,0   0:39.97 systemd+
+  20325 root      20   0  634088   1924      0 S   1,6   0,2   4:18.82 snapd
+    436 systemd+  20   0   24320    256      0 D   1,6   0,0   0:12.70 systemd+
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  20325 root      20   0  634088   4320   1776 S  23,5   0,4   4:35.78 snapd
+    121 root       0 -20       0      0      0 R  11,8   0,0   0:41.19 kworker+
+    270 root       0 -20       0      0      0 S   5,9   0,0   2:57.81 loop9
+    477 message+  20   0    9056   1988    832 S   5,9   0,2   0:09.95 dbus-da+
+    711 kules     20   0  227236  10484   4028 D   5,9   1,0   3:23.35 Xorg
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22771 kules     20   0 3932556 131132  52044 R  37,5  13,0   2:41.39 gnome-shell
+    711 kules     20   0  231852  23836   8496 S   6,2   2,4   3:23.45 Xorg
+      1 root      20   0  168860   3376   2740 S   0,0   0,3   0:29.60 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22771 kules     20   0 3935596 136684  55316 S  13,3  13,6   2:41.56 gnome-shell
+    711 kules     20   0  234892  27040  11356 S   6,7   2,7   3:23.72 Xorg
+  26788 kules     20   0   11912   3580   3124 R   6,7   0,4   0:00.01 top
+      1 root      20   0  168860   3376   2740 R   0,0   0,3   0:29.61 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26794 kules     20   0  573684  68080  44240 R  75,0   6,8   0:00.66 nautilus
+  22771 kules     20   0 3935596 140472  58148 S  12,5  14,0   2:41.96 gnome-shell
+      1 root      20   0  168860   3632   2804 S   0,0   0,4   0:29.61 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22771 kules     20   0 3937628 144820  61460 S   6,7  14,4   2:42.13 gnome-shell
+      1 root      20   0  168860   6188   4008 S   0,0   0,6   0:29.63 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  168860   6188   4008 S   0,0   0,6   0:29.63 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-kblockd
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  168860   6188   4008 S   0,0   0,6   0:29.63 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-kblockd

@@ -1,0 +1,4 @@
+[20515.131192] [  26493]  1000 26493   300893   181301  2449408   117285             0 mem.bash
+[20515.131198] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=mem.bash,pid=26493,uid=1000
+[20515.131205] Out of memory: Killed process 26493 (mem.bash) total-vm:1203572kB, anon-rss:725204kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:2392kB oom_score_adj:0
+[20515.421228] oom_reaper: reaped process 26493 (mem.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
