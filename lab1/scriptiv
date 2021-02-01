@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ $HOME = $PWD ]]
+then echo $HOME
+     exit 000	
+else echo "Error PATH."
+     exit 001
+fi

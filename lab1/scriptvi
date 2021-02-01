@@ -1,0 +1,6 @@
+#!/bin/bash
+inputFilePath=~/.local/share/xorg/Xorg.0.log
+outputFilePath=~/lab1/full.log
+grep "(WW)" $inputFilePath | sed -E "s/(WW)/Warning/" > $outputFilePath
+grep "(II)" $inputFilePath | sed -E "s/(II)/Information/" >> $outputFilePath
+cat $outputFilePath

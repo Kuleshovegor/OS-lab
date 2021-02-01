@@ -1,0 +1,11 @@
+#!/bin/bash
+~/lab3/scriptiv_mult &
+pid1=$!
+~/lab3/scriptiv_mult &
+pid2=$!
+~/lab3/scriptiv_mult &
+pid3=$!
+
+cpulimit -p $pid1 -l 10 &
+
+kill $pid3

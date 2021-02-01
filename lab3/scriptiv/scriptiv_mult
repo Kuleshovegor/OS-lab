@@ -1,0 +1,5 @@
+#!/bin/bash
+while true;
+do
+let s=$((20000*20000))
+done

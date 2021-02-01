@@ -1,0 +1,8 @@
+#!/bin/bash
+read input
+print=""
+while [[ $input != "q" ]]
+    do print=$print$input
+    read input
+done 
+echo $print

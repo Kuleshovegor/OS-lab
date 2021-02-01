@@ -1,0 +1,5 @@
+#!/bin/bash
+regularEmail="[^[:space:]]+@[^[:space:]]+(\.)[^[:space:]]+"
+directory=/etc
+outputFile=~/lab1/emails.log
+sudo grep -E -r -o -h $regularEmail $directory | sed -E "s/\n/, /" > $outputFile

@@ -1,0 +1,32 @@
+#!/bin/bash
+number="-?[0-9]+"
+let x=1
+mode=+
+(tail -f pipe) | 
+while true; do
+	read LINE;
+	case $LINE in
+	"QUIT")
+		echo "exit"
+		killall tail
+		exit
+		;;
+	"*")
+		mode=*
+		;;
+	"+")
+		mode=+
+		;;
+	*)
+		if [[ $LINE =~ $number ]]
+		then
+			let x=$x$mode$LINE
+			echo $x
+		else
+			echo error
+			killall tail
+			exit
+		fi
+		;;
+	esac
+done

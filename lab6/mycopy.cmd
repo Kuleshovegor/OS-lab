@@ -1,0 +1,1 @@
+copy /y /z C:\Windows\test.txt \\DESKTOP-FDGCSRJ\temp\test.txt 

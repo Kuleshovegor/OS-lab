@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -E "([^[:space:]]* ){5}<info>(.)*" /var/log/syslog > ~/lab1/info.log

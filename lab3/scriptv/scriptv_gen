@@ -1,0 +1,9 @@
+#!/bin/bash
+regex="-?[[:digit:]]+|\+|\*"
+while true; do
+	read LINE
+	echo "$LINE" > pipe
+	if [[ ! "$LINE" =~ $regex ]]
+	then exit
+	fi
+done 

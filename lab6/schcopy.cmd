@@ -1,0 +1,1 @@
+schtasks /Create /SC ONCE /TN schcopy /TR "C:\lab\mycopy.cmd" /ST %1

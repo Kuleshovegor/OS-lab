@@ -1,0 +1,1 @@
+for /L %%i in (1,1,300) do type tost.txt >> test.txt

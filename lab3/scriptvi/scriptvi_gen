@@ -1,0 +1,21 @@
+#!/bin/bash
+pid_hand=$(cat .pid)
+while true;
+do
+	read LINE
+	case "$LINE" in
+	"+")
+		kill -USR1 $pid_hand
+		;;
+	"*")
+		kill -USR2 $pid_hand
+		;;
+	"TERM")
+		kill -SIGTERM $pid_hand
+		exit
+		;;
+	*)
+		:
+		;;
+	esac
+done

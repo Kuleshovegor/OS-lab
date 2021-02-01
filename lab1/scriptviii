@@ -1,0 +1,3 @@
+#!/bin/bash
+inputFile=/etc/passwd
+grep -E -o -h "^[[:alnum:]]+:[[:alnum:]]+:[[:alnum:]]+" $inputFile | sed -E "s/:[[:alnum:]]+:/ /" | sort -nk 2

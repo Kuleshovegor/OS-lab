@@ -1,0 +1,28 @@
+#!/bin/bash
+echo $$ > .pid
+MODE=+
+usr1 ()
+{
+	MODE=+
+}
+usr2 ()
+{
+	MODE=*
+}
+sigterm ()
+{
+	MODE=STOP
+}
+trap 'usr1' USR1
+trap 'usr2' USR2
+trap 'sigterm' SIGTERM
+let x=1
+while true; do
+	if [[ $MODE == "STOP" ]]
+	then echo "Stopped by SIGTERM"
+		exit
+	fi
+	let x=$x$MODE"2"
+	echo $x
+	sleep 1
+done
